@@ -1,0 +1,10 @@
+void calculateC1(double &c1, double &x1, double &x3);
+void calculateC2(double &c2, double &x1, double &x3);
+void calculateC3(double &c3, double &x1, double &x3);
+void calculateP3(double &p3, double c1, double c2, double c3);
+void calculateP2(double &p2, double p3, double x1, double x3);
+void calculateX2(double &x2, double p2, double p3, double x1);
+void calculateX4(double &x4, double p3, double x1, double x2);
+void getP2P3(double &p2, double &p3, double start, double end);
+void firstCheck(double p2, double p3, double x1, double x2, double x3, double x4);
+void secondAndThirdCheck(double p2, double p3, double x1, double x2, double x3, double x4);
